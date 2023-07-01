@@ -1,0 +1,117 @@
+body {
+    background-color: #d7d7d7;
+    color: light pink;
+}
+.first{
+    position:relative;
+    width:100%;
+    height:100%;
+    background: light pink;
+}
+.logo{ 
+    width: 15%;
+    height: 15%;
+}
+nav{
+    display: flex;
+    width: 85%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;  
+  
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 15px 35px;
+    
+}
+nav ul li a{
+    
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:brown;
+}
+.second{
+    margin-left: 8%;
+    margin-top: 12%;
+}
+.second h1{
+    font-size:40px;
+    color:black;
+    margin-bottom: 20px;
+}
+span{
+    color:orangered;
+}
+.second p{
+    color:#555;
+    line-height: 22 px;
+}
+.second a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#fff;
+    display:inline-block;
+    margin: 30px 0px;
+    border-radius: 7px ;
+}
+.images1{
+    width:50%;
+    height: 83%;
+ padding-right: 22rem;
+ 
+  position: absolute;
+    bottom: 6%;
+    right: -12%;
+}   
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .social-icons {
+    margin-top: 10px;
+  }
+  .social-icons a {
+    margin-right: 10px;
+    color: #555;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  button {
+    background-color: #252825;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0d0e0d;
+  }
+/* Media Queries */
+@media (max-width: 768px) {
+  .logo h1 {
+    font-size: 20px;
+  }
+}
